@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My first mini project </title>
+        <script src="flow_page_2.js"> </script>   <!-- Including JS file-->
+    </head>
+    <body>
+        <p id="tt"></p>
+        <h3> Select a email to get entire detail of the user </h3>
+        <form>
+        <select onchange="onchange_call(this.value)">  <!-- WHen onchange event happens, ONLY THE VALUE is sent(Remember: our current html will remain same. Only the value is what we are sending) to the function which is present in JS file -->
+            <option value="1997sanket@gmail.com">1997sanket@gmail.com </option>   <!-- When user selects anyone, value variable will get the corresponding value -->
+
+            <option value="ssk4u2@gmail.com"> ssk4u2@gmail.com </option>
+         </select>
+         </form>
+        
+         
+
+    </body>
+</html>
